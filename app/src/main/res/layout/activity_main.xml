@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/dd_logo" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/decideBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -49,13 +49,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/addFoodBtn"
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/addFoodEditText"
         android:layout_width="234dp"
-        android:layout_height="57dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="add new food..."
@@ -65,9 +65,9 @@
         app:layout_constraintTop_toBottomOf="@+id/selectedFoodTxt" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/addFoodBtn"
         android:layout_width="235dp"
-        android:layout_height="67dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/muli_bold"
         android:text="ADD FOOD"
         android:textColor="@color/white"
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/addFoodEditText"
         app:layout_constraintVertical_bias="0.132" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
